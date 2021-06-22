@@ -15,6 +15,7 @@ let{nombre,apellido,edad}=persona;
 console.log(nombre,apellido,edad);
 console.log(uno);
 const copyArr=[...numeros];
+console.log(copyArr);
 
 const [t,y,,...arreglo]=numeros;
 console.log(arreglo);
